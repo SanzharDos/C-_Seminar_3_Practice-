@@ -7,18 +7,18 @@ try
     int n = Convert.ToInt32(Console.ReadLine());
     if (n < 0) Console.WriteLine("Введите неотрицательное и целое число");
     int size = n;
-    int[] A = new int[n];
+    double[] A = new double[n];
     for (int i = 0; i < n; i++)
     {
         Console.WriteLine($"Введите {i + 1}-е значение координаты A");
-        A[i] = Convert.ToInt32(Console.ReadLine());
+        A[i] = Convert.ToDouble(Console.ReadLine());
     }
 
-    int[] B = new int[n];
+    double[] B = new double[n];
     for (int i = 0; i < n; i++)
     {
         Console.WriteLine($"Введите {i + 1}-е значение координаты B");
-        B[i] = Convert.ToInt32(Console.ReadLine());
+        B[i] = Convert.ToDouble(Console.ReadLine());
     }
 
     double sum = 0;
